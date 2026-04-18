@@ -7,7 +7,7 @@ func mirrorDistance(n int) int {
     }
     output:=reversed-originalValue
     if output<0{
-        output= -output
+        return -output
     }
     return output
 }
